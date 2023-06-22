@@ -79,7 +79,7 @@ body {
     height: 100px;
     width: 200px;
 }
-.i{
+.clip{
     white-space: nowrap; /* Запрещаем перенос строк */
     overflow: hidden; /* Обрезаем все, что не помещается в область */
     background: #fc0; /* Цвет фона */
