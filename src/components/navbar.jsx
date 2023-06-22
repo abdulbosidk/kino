@@ -19,9 +19,9 @@ const Navbar = () => {
         }
     }
     return (
-        <div>
+        <div className="container">
             <nav class="navbar navbar-expand-lg bg-dark text-light">
-                <div class="container">
+                <div class="">
                     <a class="navbar-brand text-light ti" href="/"><h3>Abdulbosid</h3></a>
                     <button class="navbar-toggler bg-white  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
