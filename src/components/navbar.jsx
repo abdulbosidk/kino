@@ -50,11 +50,7 @@ const Navbar = () => {
                                                     <>
                                                         <a className="col-12" href={"/g4/" + item.id}>
                                                             <div className="row">
-                                                                <div className="col-4">
-                                                                <img alt="example" style={{width:`99%`}} src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />
-                                                                </div>
-                                                                <div className="col-8 ">
-                                                                    
+                                                                <div className="col-12">
                                                                    <small><b className="text-white">{item.title}</b></small>
                                                                 </div>
                                                             </div>
