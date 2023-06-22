@@ -83,6 +83,13 @@ const Main = () => {
                             </>
                         }
                     </div>
+                    <div className="col-12 over d-flex">
+                        <div className="row">
+                            <div className="col-xl-4 col-xs-2">
+                                
+                            </div>
+                        </div>
+                    </div>
                     <div className="col-12 pt-5">
                         <ins><a href="" className="text-primary"><h3>в тренде</h3></a></ins>
                     </div>
