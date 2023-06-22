@@ -86,7 +86,7 @@ const Main = () => {
                     <div className="col-12 over d-flex over d-flex bg-warning">
                         <div className="row">
                             <div className="col-xl-4 col-xs-2">
-                                <iframe width="320" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe width="200" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
