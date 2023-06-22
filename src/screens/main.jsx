@@ -83,6 +83,9 @@ const Main = () => {
                             </>
                         }
                     </div>
+                    <div className="col-12 text-primary">
+                        <h3>Последние трейлеры</h3>
+                    </div>
                     <div className="col-12 over d-flex over d-flex bg-warning">
                         <div className="row">
                             <div className="col-xl-4 col-xs-2 rounded">
