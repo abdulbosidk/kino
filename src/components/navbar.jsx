@@ -20,79 +20,7 @@ const Navbar = () => {
     }
     return (
         <div>
-            <div class="container-fluid">
-                <div class="col-12 header p-3">
-                    <div class="row">
-                        <div class="col-6 ms-5 d-flex justify-content-center">
-                            <div class="row">
-                                <div class="col-2">
-                                    <h2 class="name">TMDB</h2>
-                                </div>
-
-                                <div class="col-2 mt-2 pt-1 ms-3">
-                                    <button class="buttn rounded-5 border-0"></button>
-                                </div>
-
-                                <div class="col-2 mt-2">
-                                    <a href="" class="text-decoration-none text-white"
-                                    ><b>Фильмы</b></a
-                                    >
-                                </div>
-
-                                <div class="col-2 mt-2">
-                                    <a href="" class="text-decoration-none text-white"
-                                    ><b>Сериалы</b></a
-                                    >
-                                </div>
-
-                                <div class="col-2 mt-2">
-                                    <a href="" class="text-decoration-none text-white"
-                                    ><b>Люди</b></a
-                                    >
-                                </div>
-
-                                <div class="col-1 mt-2">
-                                    <a href="" class="text-decoration-none text-white"
-                                    ><b>Еще</b></a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="col-1 mt-2">
-                                    <i class="fa-solid fa-plus fa-2x" style="color: white"></i>
-                                </div>
-                                <div class="col-2 mt-2">
-                                    <button class="text-white butn border-2 rounded-1 border-white">
-                                        RU
-                                    </button>
-                                </div>
-
-                                <div class="col-2 mt-2">
-                                    <a href="" class="text-decoration-none text-white"
-                                    ><b>Войти</b></a
-                                    >
-                                </div>
-
-                                <div class="col-5 mt-2">
-                                    <a href="" class="text-decoration-none text-white"
-                                    ><b>Присоединиться к TMDB</b></a
-                                    >
-                                </div>
-                                <div class="col-1 mt-2">
-                                    <i
-                                        class="fa-solid fa-magnifying-glass fa-2x"
-                                        style="color: rgb(0, 174, 255)"
-                                    ></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* <nav class="navbar navbar-expand-lg bg-dark text-light">
+            <nav class="navbar navbar-expand-lg bg-dark text-light">
                 <div class="container">
                     <a class="navbar-brand text-light ti" href="/"><h3>Abdulbosid</h3></a>
                     <button class="navbar-toggler bg-white  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -158,7 +86,7 @@ const Navbar = () => {
                         }
                     </div>
                 </div>
-            </nav> */}
+            </nav>
         </div>
     );
 };
