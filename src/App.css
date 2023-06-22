@@ -80,6 +80,7 @@ body {
     width: 200px;
 }
 .clip{
+    text-overflow: clip / ellipsis;
     white-space: nowrap; /* Запрещаем перенос строк */
     overflow: hidden; /* Обрезаем все, что не помещается в область */
     background: #fc0; /* Цвет фона */
