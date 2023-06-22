@@ -98,7 +98,7 @@ const Main = () => {
                                             }}
                                             cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
                                         >
-                                            <h4>{item.name}</h4>
+                                            <h5>{item.name}</h5>
                                         </Card>
                                     </a>
                                 )}
