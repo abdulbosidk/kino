@@ -51,7 +51,7 @@ const Navbar = () => {
                                                         <a className="col-12" href={"/g4/" + item.id}>
                                                             <div className="row">
                                                                 <div className="col-12">
-                                                                   <small><b className="text-white">{item.title}</b></small>
+                                                                   <small><b className="text-white i">{item.title}</b></small>
                                                                 </div>
                                                             </div>
 
