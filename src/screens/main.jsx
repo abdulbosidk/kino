@@ -62,7 +62,7 @@ const Main = () => {
                         {movies.length > 0 ?
                             <>
                                 {movies.map((item) =>
-                                    <a className="col-xs-3 col-xl-6 clip" href={'/g4/' + item.id}>
+                                    <a className="col-xs-6 col-xl-2 clip" href={'/g4/' + item.id}>
                                         <Card
                                             hoverable
                                             style={{
