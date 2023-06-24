@@ -31,7 +31,7 @@ const Good3 = () => {
                             {movies.length > 0 ?
                                 <>
                                     {movies.map((item) =>
-                                        <a className="col-6 col-xl-3 mb-2 clip" href={'/g4/' + item.id}>
+                                        <div className='col-xl-2 col-xs-6 p-2'>
                                             <Card
                                                 hoverable
                                                 style={{
@@ -39,9 +39,9 @@ const Good3 = () => {
                                                 }}
                                                 cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
                                             >
-                                                <h5 className='pb-2'>{item.title}</h5>
+                                                <a className=" mb-2 clip" href={'/g4/' + item.id}><h5 className='pb-2'>{item.title}</h5></a>
                                             </Card>
-                                        </a>
+                                        </div>
                                     )}
                                 </>
                                 :

@@ -62,17 +62,17 @@ const Main = () => {
                         {movies.length > 0 ?
                             <>
                                 {movies.map((item) =>
-                                    <a className="col-xs-6 col-xl-2 clip" href={'/g4/' + item.id}>
+                                    <div className="col-2 p-1">
                                         <Card
                                             hoverable
                                             style={{
                                                 width: `99%`,
                                             }}
-                                            cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
+                                            cover={<img alt="example" height={250} src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
                                         >
-                                            <h5 className="pb-2 j">{item.title}</h5>
+                                            <a className="clip" href={'/g4/' + item.id}><h5 className="pb-2 j">{item.title}</h5></a>
                                         </Card>
-                                    </a>
+                                    </div>
                                 )}
                             </>
                             :
@@ -124,7 +124,7 @@ const Main = () => {
                         {movies.length > 0 ?
                             <>
                                 {movie.map((item) =>
-                                    <a className="col-xs-6 col-xl-2 clip" href={'/g4/' + item.id}>
+                                    <div className="col-2 p-1">
                                         <Card
                                             hoverable
                                             style={{
@@ -132,9 +132,9 @@ const Main = () => {
                                             }}
                                             cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
                                         >
-                                            <h5 className="pb-2">{item.name}</h5>
+                                            <a className="clip" href={'/g4/' + item.id}><h5 className="pb-2">{item.name}</h5></a>
                                         </Card>
-                                    </a>
+                                    </div>
                                 )}
                             </>
                             :

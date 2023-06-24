@@ -106,7 +106,7 @@ const Good4 = () => {
                                     {abdulbory.length > 0 ?
                                         <>
                                             {abdulbory.map((item) =>
-                                                <a className="col-sm-3 col-xl-2 clip" href={'/g4/' + item.id}>
+                                                <div className="col-xl-2 col-xs-6 p-1">
                                                     <Card
                                                         hoverable
                                                         style={{
@@ -114,9 +114,9 @@ const Good4 = () => {
                                                         }}
                                                         cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
                                                     >
-                                                        <h5 className="pb-2">{item.title}</h5>
+                                                        <a className="clip" href={'/g4/' + item.id}><h5 className="pb-2">{item.title}</h5></a>
                                                     </Card>
-                                                </a>
+                                                </div>
                                             )}
                                         </>
                                         :
