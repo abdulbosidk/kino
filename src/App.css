@@ -70,11 +70,10 @@ body{
 }
 
 .t {
-    position: absolute;
+    position: fixed;
     right: 100px;
     top: 50px;
-    height: 100px;
-    width: 200px;
+    background-color:#f9f9fd69;
 }
 .clip{
     white-space: nowrap; /* Запрещаем перенос строк */

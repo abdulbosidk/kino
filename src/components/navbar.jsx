@@ -27,7 +27,7 @@ const Navbar = () => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link text-light" href="/g1/1"><h5>популярные</h5></a>
                             </li>
@@ -42,33 +42,33 @@ const Navbar = () => {
                             placeholder="Search Mockups, Logos..." onChange={(e) => { fetchMovies(e.target.value) }} required />
                         {search ?
                             <>
-                                <div className="bg-dark col-2 over d-flex t">
-                                    {movies.length > 0 ?
-                                        <>
-                                            {
-                                                movies.map((item) =>
-                                                    <>
-                                                        <a className="col-12" href={"/g4/" + item.id}>
-                                                            <div className="row">
-                                                                <div className="col-12">
-                                                                   <small><b className="text-white">{item.title}</b></small>
+                                <div className="col-2 t">
+                                    <div className="row">
+                                        {movies.length > 0 ?
+                                            <>
+                                                {
+                                                    movies.map((item) =>
+                                                        <>
+                                                            <a className="col-12" href={"/g4/" + item.id}>
+                                                                <div className="row">
+                                                                    <div className="col-12">
+                                                                        <small><b className="">{item.title}</b></small>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
 
-                                                        </a>
-                                                        <br />
-                                                    </>
-                                                )
-                                            }
-                                        </>
-                                        :
-                                        <>
-
-
-                                        </>
-                                    }
+                                                            </a>
+                                                            <br />
+                                                        </>
+                                                    )
+                                                }
+                                            </>
+                                            :
+                                            <>
 
 
+                                            </>
+                                        }
+                                        </div>
                                 </div>
 
 
