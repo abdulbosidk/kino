@@ -68,7 +68,7 @@ const Main = () => {
                                             style={{
                                                 width: `99%`,
                                             }}
-                                            cover={<img alt="example" height={250} src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
+                                            cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
                                         >
                                             <a className="clip" href={'/g4/' + item.id}><h5 className="pb-2 j">{item.title}</h5></a>
                                         </Card>

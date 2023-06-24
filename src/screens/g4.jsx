@@ -106,7 +106,7 @@ const Good4 = () => {
                                     {abdulbory.length > 0 ?
                                         <>
                                             {abdulbory.map((item) =>
-                                                <div className="col-xl-2 col-xs-6 p-1">
+                                                <div className="col-lg-2 col-6 p-1">
                                                     <Card
                                                         hoverable
                                                         style={{

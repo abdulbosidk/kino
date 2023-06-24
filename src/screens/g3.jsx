@@ -31,7 +31,7 @@ const Good3 = () => {
                             {movies.length > 0 ?
                                 <>
                                     {movies.map((item) =>
-                                        <div className='col-xl-2 col-xs-6 p-2'>
+                                        <div className='col-lg-2 col-6 p-2'>
                                             <Card
                                                 hoverable
                                                 style={{
