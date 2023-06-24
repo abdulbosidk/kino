@@ -55,10 +55,10 @@ const Main = () => {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 pt-5">
+                    <div className="col-4 mt-2 tm">
                         <ins><a href="" className="text-primary"><h3>Что популярно</h3></a></ins>
                     </div>
-                    <div className="col-12 over d-flex">
+                    <div className="col-12 over d-flex tm">
                         {movies.length > 0 ?
                             <>
                                 {movies.map((item) =>
@@ -83,47 +83,44 @@ const Main = () => {
                             </>
                         }
                     </div>
-                    <div className="col-12 text-primary mt-2">
+                    <div className="col-4 text-primary mt-2 tm">
                         <h3>Последние трейлеры</h3>
                     </div>
-                    <div className="col-12 over d-flex bg-warning mb-2">
-                        <div className="row">
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div className="col-12 text-primary tm">
+                        <div className="w-100 over d-flex">
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            </div>
-                            <div className="col-xl-2 col-xs-2 rounded mt-2">
-                                <iframe width="180" height="180" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="col-2 mt-2">
+                                <iframe className="rounded" width="180" height="250" src="https://www.youtube.com/embed/hq3C0qimFjs" title="Таких Нокаутов Больше Не Увидишь! Мирко Крокоп в Кикбоксинге" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 pt-5">
+                    <div className="col-4 mt-2 tm">
                         <ins><a href="" className="text-primary"><h3>в тренде</h3></a></ins>
                     </div>
-                    <div className="col-12 over d-flex">
+                    <div className="col-12 over d-flex tm">
                         {movies.length > 0 ?
                             <>
                                 {movie.map((item) =>

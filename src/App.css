@@ -1,20 +1,17 @@
 * {
     box-sizing: border-box;
 }
-
-body {
-    margin: 0px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQShd_9eNgRyj-TqXj7jyZWJP4CIDG0_QgKFA&usqp=CAU);
-    background-size: cover;
+body{
+    background-image: url(https://ratatum.com/wp-content/uploads/2018/03/1_jfR0trcAPT3udktrFkOebA-min.jpeg);
 }
-
 .top {
-    background-image: url(https://avatars.mds.yandex.net/i?id=40fad75728b7d0cc3adab1d7e558063b72afe9ae-5299516-images-thumbs&n=13);
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 250px;
 }
-
+.tm{
+    background-color: rgba(0, 0, 0, 0.342);
+}
 .tt {
     font-size: 50px;
 }

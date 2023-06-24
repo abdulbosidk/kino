@@ -26,7 +26,7 @@ const Good3 = () => {
             <Navbar />
             <div className="container">
                 <div className="row">
-                    <div className="col-12 mt-5">
+                    <div className="col-12 mt-5 tm">
                         <div className="row">
                             {movies.length > 0 ?
                                 <>

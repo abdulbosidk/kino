@@ -71,7 +71,7 @@ const Good4 = () => {
             {movie != null ?
                 <div className="container text-light">
                     <div className="row">
-                        <div className="col-12 mt-3">
+                        <div className="col-12 mt-3 tm">
                             <div className="row">
                                 <div className="col-xl-4 col-sm-4">
                                     <img width={'100%'} src={"https://www.themoviedb.org/t/p/w220_and_h330_face/" + movie.poster_path} />
@@ -99,10 +99,10 @@ const Good4 = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 pt-5">
+                                <div className="col-4 mt-2 pt-5 tm">
                                     <ins><h5>Похожие</h5></ins>
                                 </div>
-                                <div className="col-12 over d-flex">
+                                <div className="col-12 over d-flex tm">
                                     {abdulbory.length > 0 ?
                                         <>
                                             {abdulbory.map((item) =>
@@ -127,7 +127,7 @@ const Good4 = () => {
                                         </>
                                     }
                                 </div>
-                                <div className="col-xl-12 col-sm-12 mt-2">
+                                <div className="col-xl-12 col-sm-12 mt-2 tm">
                                     {video != null ?
                                         <iframe width="100%" height="480" src={"https://www.youtube.com/embed/" + video.key} title="SHAZAM Top 50 - Лучшая Музыка 2022 - Зарубежные песни Хиты - Популярные Песни Слушать Бесплатно #2" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

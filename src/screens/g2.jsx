@@ -38,7 +38,7 @@ const Good2 = () => {
                             </ul>
                         </nav>
                     </div>
-                    <div className="col-12">
+                    <div className="col-12 tm">
                         <div className="row">
                             {movies.length > 0 ?
                                 <>
