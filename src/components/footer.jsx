@@ -9,7 +9,6 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-sm-12 col-xl-4 ">
                                 <img width={200} className="mb-2" src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" />
-                                <button type="button" class="btn btn-light text-primary"><b>ВСТУПИТЬ В СООБЩЕСТВО</b></button>
                             </div>
                             <div className="col-sm-12 col-xl-2 mt-2 text-primary">
                                 <h4>ГЛАВНОЕ О TMDB</h4>
