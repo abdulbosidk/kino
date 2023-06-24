@@ -62,7 +62,7 @@ const Main = () => {
                         {movies.length > 0 ?
                             <>
                                 {movies.map((item) =>
-                                    <div className="col-2 p-1">
+                                    <div className="col-8 col-lg-2 p-1">
                                         <Card
                                             hoverable
                                             style={{
