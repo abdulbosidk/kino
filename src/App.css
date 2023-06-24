@@ -1,17 +1,21 @@
 * {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-image: url(https://ratatum.com/wp-content/uploads/2018/03/1_jfR0trcAPT3udktrFkOebA-min.jpeg);
 }
+
 .top {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 250px;
 }
-.tm{
+
+.tm {
     background-color: rgba(0, 0, 0, 0.342);
 }
+
 .tt {
     font-size: 50px;
 }
@@ -69,20 +73,23 @@ body{
             color-stop(.5, transparent), to(transparent));
 }
 
-.t {
+.m {
     position: fixed;
-    right: 100px;
-    top: 50px;
-    background-color:#f9f9fd69;
-}
-.clip{
-    white-space: nowrap; /* Запрещаем перенос строк */
-    overflow: hidden; /* Обрезаем все, что не помещается в область */
-    background: #fc0; /* Цвет фона */
-    padding: 0px; /* Поля вокруг текста */
-    text-overflow: ellipsis;
 }
 
+.t {
+    position: fixed;
+    background-color: #f9f9fd69;
+    z-index: -50px;
+}
+
+.clip {
+    display: -webkit-box;
+    font-size: 13;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 @media(min-width:768px) {
     .ld {
         margin-left: 300px;

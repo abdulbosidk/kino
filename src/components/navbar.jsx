@@ -20,7 +20,7 @@ const Navbar = () => {
     }
     return (
         <div>
-            <nav class="navbar navbar-expand-lg bg-dark text-light">
+            <nav class="navbar navbar-expand-lg bg-dark text-light m">
                 <div className="container">
                     <a class="navbar-brand text-light ti" href="/"><h3>Abdulbosid</h3></a>
                     <button class="navbar-toggler bg-white  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,36 +42,35 @@ const Navbar = () => {
                             placeholder="Search Mockups, Logos..." onChange={(e) => { fetchMovies(e.target.value) }} required />
                         {search ?
                             <>
-                                <div className="col-2 t">
-                                    <div className="row">
-                                        {movies.length > 0 ?
-                                            <>
-                                                {
-                                                    movies.map((item) =>
-                                                        <>
-                                                            <a className="col-12" href={"/g4/" + item.id}>
-                                                                <div className="row">
-                                                                    <div className="col-12">
-                                                                        <small><b className="">{item.title}</b></small>
-                                                                    </div>
+                                <div className="row t">
+                                    {movies.length > 0 ?
+                                        <>
+                                            {
+                                                movies.map((item) =>
+                                                    <>
+                                                        <a className="col-12" href={"/g4/" + item.id}>
+                                                            <div className="row">
+                                                                <div className="col-4">
+                                                                    <img width={"100%"} src={item.backdrop_path}></img>
                                                                 </div>
+                                                                <div className="col-8">
+                                                                    <small><b className="">{item.title}</b></small>
+                                                                </div>
+                                                            </div>
 
-                                                            </a>
-                                                            <br />
-                                                        </>
-                                                    )
-                                                }
-                                            </>
-                                            :
-                                            <>
+                                                        </a>
+                                                        <br />
+                                                    </>
+                                                )
+                                            }
+                                        </>
+                                        :
+                                        <>
 
 
-                                            </>
-                                        }
-                                        </div>
+                                        </>
+                                    }
                                 </div>
-
-
                             </>
                             :
                             <>

@@ -51,7 +51,7 @@ const Good1 = () => {
                                                 }}
                                                 cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w220_and_h330_face/' + item.backdrop_path} />}
                                             >
-                                                <h5 className="pb-5">{item.title}</h5>
+                                                <h5 className="pb-5 j">{item.title}</h5>
                                             </Card>
                                         </a>
                                     )}
