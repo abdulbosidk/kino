@@ -12,7 +12,7 @@ const Good5=()=>{
     const fetchMovies = async () => {
         const data = await axios({
             method: "get",
-            url: `https://api.themoviedb.org/3/person/changes?page=1&api_key=3cc05ada7e70628b8d1bf36e4d1f6fd7`
+            url: `https://api.themoviedb.org/3/person/popular?api_key=3cc05ada7e70628b8d1bf36e4d1f6fd7&`
         })
         console.log('actris', data);
         if (data.status == 200) {
@@ -38,9 +38,9 @@ const Good5=()=>{
                                                 style={{
                                                     width: `99%`,
                                                 }}
-                                                cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w235_and_h235_face/' + item.backdrop_path} />}
+                                                cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w235_and_h235_face/' + item.profile_path} />}
                                             >
-                                                <a className=" mb-2 clip"><h5 className='pb-2'>{item.title}</h5></a>
+                                                <a className=" mb-2 clip"><h5 className='pb-2'>{item.name}</h5></a>
                                             </Card>
                                         </div>
                                     )}
