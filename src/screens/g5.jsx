@@ -40,7 +40,7 @@ const Good5=()=>{
                                                 }}
                                                 cover={<img alt="example" src={'https://www.themoviedb.org/t/p/w235_and_h235_face/' + item.profile_path} />}
                                             >
-                                                <a className=" mb-2 clip"><h5 className='pb-2'>{item.name}</h5></a>
+                                                <a className=" mb-2 clip"><h5 className='pb-2' href={'/g4/' + item.id}>{item.name}</h5></a>
                                             </Card>
                                         </div>
                                     )}
