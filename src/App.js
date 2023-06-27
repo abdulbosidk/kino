@@ -6,6 +6,7 @@ import Good1 from './screens/g1';
 import Good2 from './screens/g2';
 import Good3 from './screens/g3';
 import Good4 from './screens/g4';
+import Good5 from './screens/g5';
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
             <Route path='/g2/:page' element={<Good2/>}/>
             <Route path='/g3' element={<Good3/>}/>
             <Route path='/g4/:id' element={<Good4/>}/>
+            <Route path='/g5' element={<Good5/>}/>
           </Routes>
         </BrowserRouter>
     </div>

@@ -37,6 +37,9 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <a class="nav-link text-light" href="/g3"><h5>Скоро выходяшие фильмы</h5></a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="/g4"><h5>Актёры и Актрисы</h5></a>
+                            </li>
                         </ul>
                         <input type="search" id="click" class=" block w-full text-sm text-gray-900 border border-gray-300 rounded px-2 py-1 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             placeholder="Search Mockups, Logos..." onChange={(e) => { fetchMovies(e.target.value) }} required />
