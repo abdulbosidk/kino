@@ -12,7 +12,7 @@ const Good5=()=>{
     const fetchMovies = async () => {
         const data = await axios({
             method: "get",
-            url: `https://api.themoviedb.org/3/person/changes?page=1&3cc05ada7e70628b8d1bf36e4d1f6fd7&`
+            url: `https://api.themoviedb.org/3/person/changes?page=1&api_key=3cc05ada7e70628b8d1bf36e4d1f6fd7`
         })
         console.log('actris', data);
         if (data.status == 200) {
