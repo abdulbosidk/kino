@@ -56,7 +56,7 @@ const Main = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-xl-4 mt-2 tm">
-                        <ins><a href="" className="text-light"><h3>Что популярно</h3></a></ins>
+                        <ins className="text-light"><h3>Что популярно</h3></ins>
                     </div>
                     <div className="col-xs-12 col-xl-12 over d-flex tm">
                         {movies.length > 0 ?
